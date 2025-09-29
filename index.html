@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Profile UI</title>
+</head>
+
+<body class="bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 flex items-center justify-center min-h-screen">
+
+  <!-- Profile Card -->
+  <div
+    class="max-w-sm w-full bg-white shadow-2xl rounded-3xl p-8 text-center relative overflow-hidden hover:shadow-3xl transition">
+
+    <!-- Decorative Gradient Circle -->
+    <div
+      class="absolute -top-12 -right-12 w-36 h-36 bg-gradient-to-br from-indigo-400 to-pink-500 rounded-full opacity-20">
+    </div>
+
+    <!-- Profile Image -->
+    <img class="w-28 h-28 rounded-full mx-auto border-4 border-white shadow-lg relative z-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWzUKmgdKX1M2Zb9ZnLS61QfxojrplbUmGg&s"
+      alt="Profile Picture">
+
+    <!-- Name & Bio -->
+    <h2 class="mt-4 text-2xl font-bold text-gray-800">Huzaifa Imran</h2>
+    <p class="text-gray-500">Frontend Developer | UI/UX Designer</p>
+
+
+    <!-- Social Links -->
+    <div class="flex justify-center space-x-6 mt-6 relative z-10">
+      <a href="#" class="text-blue-600 hover:text-blue-800 hover:scale-125 transform transition">
+        <i class="fab fa-facebook-f fa-lg"></i>
+      </a>
+      <a href="#" class="text-sky-500 hover:text-sky-700 hover:scale-125 transform transition">
+        <i class="fab fa-twitter fa-lg"></i>
+      </a>
+      <a href="#" class="text-pink-600 hover:text-pink-800 hover:scale-125 transform transition">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+      <a href="#" class="text-gray-800 hover:text-black hover:scale-125 transform transition">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a href="#" class="text-blue-700 hover:text-blue-900 hover:scale-125 transform transition">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+    </div>
+
+    <!-- Buttons -->
+    <div class="mt-8 flex justify-center space-x-4 relative z-10">
+      <button
+        class="px-6 py-2 bg-gradient-to-r from-indigo-600 to-pink-600 text-white font-medium rounded-full shadow-md hover:opacity-90 transition">
+        Follow
+      </button>
+      <button class="px-6 py-2 border border-gray-300 text-gray-700 rounded-full hover:bg-gray-100 transition">
+        Message
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
